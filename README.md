@@ -87,6 +87,20 @@ flowchart TD
 
 ---
 
-## Autor
+<!-- DEMONSTRAÇÃO (descomentar quando houver mídia em docs/screens/):
+## 📸 Demonstração
 
-Erick Lopes — [LinkedIn](https://www.linkedin.com/in/erick-lopes-2k02/) · [GitHub](https://github.com/ErickLopesSC)
+| Fluxo | Mídia |
+|---|---|
+| Login | `docs/screens/login.png` |
+| Catálogo de barbearias | `docs/screens/catalogo.png` |
+| Novo agendamento | `docs/screens/agendamento.png` |
+| Painel da barbearia | `docs/screens/painel.png` |
+-->
+
+## 👥 Autores
+
+- **Ian Carlos de Oliveira Leite** — [@Ianclrs](https://github.com/Ianclrs)
+- **Erick Lopes dos Santos Carvalho** — [@ErickLopesSC](https://github.com/ErickLopesSC)
+
+**Showcase mantido por** Erick Lopes — [LinkedIn](https://www.linkedin.com/in/erick-lopes-2k02/) · [GitHub](https://github.com/ErickLopesSC)
