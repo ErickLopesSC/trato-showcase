@@ -46,13 +46,12 @@ O desafio técnico central é um **motor de disponibilidade**: horários de func
 
 ## 🏗️ Arquitetura
 
-```text
-React 19 + Vite (cliente)  ──REST/HTTPS──►  ASP.NET Core 10 Minimal API
-                                                    │
-                                    ┌───────────────┼────────────────┐
-                                    │               │                │
-                              PostgreSQL 17      SignalR        S3 / R2
-                              (PostGIS)       (tempo real)     (mídia)
+```mermaid
+flowchart TD
+    A["React 19 + Vite<br/>TypeScript · shadcn/ui"] -->|REST / HTTPS| B["ASP.NET Core 10<br/>Minimal API"]
+    B --> C[("PostgreSQL 17<br/>+ PostGIS")]
+    B --> D["SignalR<br/>WebSocket"]
+    B --> E["S3 / Cloudflare R2<br/>mídia"]
 ```
 
 | Camada | Tecnologia |
